@@ -7,10 +7,12 @@
 
 body {
     background-color: var(--verde-claro);
+    width: 500px;
+    height: 100%;
 }
 
 #cabecalho {
-    height: 670px;
+    height: 690px;
 }
 
 .title {
@@ -52,11 +54,12 @@ li {
     color: var(--branco);
 
     font-size: 22px;
-    padding-top: 70px;
-    padding-left: 30px;
-    padding-right: 10px;
+
 }
 
+ol {
+    max-width: 400px;
+  }
 
 .black{
     color: black;
@@ -67,7 +70,5 @@ li {
 }
 
 #exemplos{
-    height: 1800px;
-    background-color: #F0F0F0;
-    
+    height: 2000px;
 }
