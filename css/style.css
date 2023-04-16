@@ -7,7 +7,7 @@
 
 body {
     background-color: var(--verde-claro);
-    width: 500px;
+    width: 480px;
     height: 100%;
 }
 
@@ -31,8 +31,10 @@ body {
 }
 
 #inicio {
+    border: none;
+    ;
     position: static;
-    height: 400px;
+    height: 500px;
     background-color: var(--preto);
 
 }
@@ -43,9 +45,8 @@ p {
     color: var(--branco);
     font-style: italic;
     font-size: 22px;
-    padding-top: 70px;
-    padding-left: 30px;
-    padding-right: 10px;
+
+
 }
 
 li {
@@ -59,16 +60,17 @@ li {
 
 ol {
     max-width: 400px;
-  }
+}
 
-.black{
+.black {
     color: black;
 }
+
 #desafios {
-    height: 880px;
+    height: 900px;
     background-color: var(--cinza);
 }
 
-#exemplos{
+#exemplos {
     height: 2000px;
 }
